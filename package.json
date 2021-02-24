@@ -1,5 +1,9 @@
-"scripts": {
-  "start": "node src/index.js",
-  "build": "ng build",
-  "heroku-postbuild": "ng build --prod" // this will be run on Heroku
+
+{
+  "name": "myapp",
+  "description": "a really cool app",
+  "version": "0.0.1",
+  "engines": {
+    "npm": "6.x"
+  }
 }
