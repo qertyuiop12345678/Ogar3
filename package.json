@@ -1,7 +1,4 @@
 {
-   "engines": {
-   "node": "14.x"
-  },
   "name": "Ogar",
   "version": "1.0.0",
   "description": "Open source Agar.io server",
@@ -15,6 +12,9 @@
     "portfinder":"1.0.28"
   },
   "devDependencies": {},
+  "engines": {
+   "node": "14.x"
+  },
   "scripts": {
     "start": "node src/index.js --game",
     "test": "echo \"Error: no test specified\" && exit 1"
