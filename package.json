@@ -1,4 +1,7 @@
 {
+   "engines": {
+   "node": "14.x"
+  }
   "name": "Ogar",
   "version": "1.0.0",
   "description": "Open source Agar.io server",
